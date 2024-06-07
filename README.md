@@ -1,5 +1,7 @@
 # RimWorld Mod List 
 
+[![Pylint](https://github.com/thauanb/RimWorld_ModList/actions/workflows/pylint.yml/badge.svg)](https://github.com/thauanb/RimWorld_ModList/actions/workflows/pylint.yml)
+
 Lista todos os mods instalados na pasta apontada , retornando [ nome_mod , autor , packageId ]
 
 
