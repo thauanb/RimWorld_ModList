@@ -15,8 +15,7 @@ class XmlReader:
         name = self.root.find('name').text or "Sem Nome"
         author = self.root.find('author').text or "Sem Autor"
         package_id = self.root.find('packageId').text or "Sem ID"
-        return [name, author, package_id]
-    
+        return[name,author,package_id]
     def get_xml_tree(self):
         """Return the XML tree."""
         return self.tree
